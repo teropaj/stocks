@@ -1,0 +1,4 @@
+node_momules/*
+client/node_modules/*
+yarn.lock
+
