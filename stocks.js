@@ -31,8 +31,9 @@ var sql=new Sqlclass();
 
 function getStocks(reg,res){
     sql.query("SELECT * FROM stocks").then(results => {
-      res.send(results)
+      res.json(results)
       console.log(results);
+      console.log('jlfsjlfjsl  '+results[0])
       //return(data);
 
     });
